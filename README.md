@@ -1,2 +1,2 @@
 # Voxelnet
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Voxelnet Architecture](https://github.com/steph1793/Voxelnet/blob/master/images/pre.png)
