@@ -97,6 +97,8 @@ $ !python train.py \
 # What's new
 
 * Tensorflow 2.0.0
+* Data pipeline with tensorflow dataset api
+* Eager mode (with use of autograph for speed)
 * Use of a variant of the smooth-l1 loss for the regression loss (use of Huber loss)
 * Use of tf.distribute for the multi gpu training (still in process, only one gpu training works for now)
 * Non use of the first type of data augmentation (may lead in a decrease of performance)
