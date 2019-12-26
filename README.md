@@ -115,5 +115,5 @@ I've just finished the project, and start training it. But before that, I did a 
 * Train of models for car detection
 * Finish multi gpu interface
 * Train models for Pedestrian and Cyclist detection
-* Try new features that I'll comunicate soon
+* Try new features that I'll communicate soon
 
