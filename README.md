@@ -73,3 +73,37 @@ $ !python train.py \
 --summary_flush_interval=20 \
 --ckpt_max_keep=10 \
 ```
+
+# Evaluate
+1. Run `predict.py`.
+
+```
+!python predict.py \
+--strategy="all" \
+--batch_size=2 \
+--dump_vis="yes" \
+--data_root_dir="../DATA_DIR/T_DATA/" \
+--dataset_to_test="validation" \
+--model_dir="model" \
+--model_name="model6" \
+--ckpt_name="" \
+```
+
+2. Then, run the kitty_eval project to compute the performances of the model.
+```
+./kitti_eval/evaluate_object_3d_offline [DATA_DIR]/validation/label_2 ./predictions [output file]
+```
+
+# What's new
+
+* Tensorflow 2.0.0
+* Use of a variant of the smooth-l1 loss for the regression loss (use of Huber loss)
+* Use of tf.distribute for the multi gpu training (still in process, only one gpu training works for now)
+
+# Performances
+(ongoing)
+I've just finished the project, and start training it. But before that, I did a lot of tests to challenge the archictecture. One of them is overfitting the model on a small training set in a few steps in order to check if i built a model able to learn anything at all, results, below.(PS : I tried to faithful as much as I could to the paper). 
+
+![perf](https://github.com/steph1793/Voxelnet/blob/master/images/Capture3.PNG)
+![perf2](https://github.com/steph1793/Voxelnet/blob/master/images/Capture4.PNG)
+
