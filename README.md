@@ -1,4 +1,4 @@
-# Voxelnet
+# Voxelnet (tensorflow 2.0.0)
 ![Image of Voxelnet Architecture](https://github.com/steph1793/Voxelnet/blob/master/images/pre.png)
 
 Implementation of [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](https://arxiv.org/abs/1711.06396) in tensorflow 2.0.0. <br>
