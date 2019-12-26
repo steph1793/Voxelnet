@@ -99,6 +99,7 @@ $ !python train.py \
 * Tensorflow 2.0.0
 * Use of a variant of the smooth-l1 loss for the regression loss (use of Huber loss)
 * Use of tf.distribute for the multi gpu training (still in process, only one gpu training works for now)
+* Non use of the first type of data augmentation (may lead in a decrease of performance)
 
 # Performances
 (ongoing)
@@ -106,4 +107,11 @@ I've just finished the project, and start training it. But before that, I did a 
 
 ![perf](https://github.com/steph1793/Voxelnet/blob/master/images/Capture3.PNG)
 ![perf2](https://github.com/steph1793/Voxelnet/blob/master/images/Capture4.PNG)
+
+# Coming next
+
+* Train of models for car detection
+* Finish multi gpu interface
+* Train models for Pedestrian and Cyclist detection
+* Try new features that I'll comunicate soon
 
