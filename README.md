@@ -105,7 +105,7 @@ $ !python train.py \
 
 # Performances
 (ongoing)
-I've just finished the project, and start training it. But before that, I did a lot of tests to challenge the archictecture. One of them is overfitting the model on a small training set in a few steps in order to check if i built a model able to learn anything at all, results, below.(PS : I tried to faithful as much as I could to the paper). 
+I've just finished the project, and start training it. But before that, I did a lot of tests to challenge the archictecture. One of them is overfitting the model on a small training set in a few steps in order to check if i built a model able to learn anything at all, results, below.(PS : I tried to be faithful as much as I could to the paper). 
 
 ![perf](https://github.com/steph1793/Voxelnet/blob/master/images/Capture3.PNG)
 ![perf2](https://github.com/steph1793/Voxelnet/blob/master/images/Capture4.PNG)
